@@ -1,5 +1,6 @@
 body {
-    margin: 0;
+    margin: 0;  /* impostato margine a 0 per risolvere
+    problema dell'header a tutto schermo...probabilmente soluzione non ottimale */
     box-sizing: border-box;
 }
 
@@ -17,7 +18,8 @@ body {
 
 h1 {
     margin-block-end: 0;
-    margin-left: 10px;
+    margin-left: 10px; /* margini laterali aggiunti a ogni id/classe
+    css. Meglio aggiungere una classe in html??*/
     margin-right: 10px;
     font-size: 50px;
 }
@@ -68,9 +70,9 @@ ul {
 }
 
 table {
-    margin-top: 10px;
-    margin-bottom: 10px;
+   border-collapse: collapse;
 }
+
 
 thead {
     color: white;
