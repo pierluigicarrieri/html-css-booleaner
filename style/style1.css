@@ -72,3 +72,25 @@ ul {
     padding-inline-start: 20px;
 }
 
+table {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+thead {
+    color: white;
+    background-color: rgba(32,169,229,255);
+}
+
+.tr_teal {
+    background-color: rgba(177,229,242,255);
+}
+
+.td1 {
+    width: 500px;
+}
+
+.td2 {
+    width: 1000px;
+}
+
