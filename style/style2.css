@@ -1,0 +1,119 @@
+body {
+    margin: 0;  /* Non sono sicuro di aver capito bene la consegna...*/
+    box-sizing: border-box;
+}
+
+#the_booleaner_logo {
+    width: 250px;
+}
+
+#top_header {
+    height: 90px;
+    padding-left: 10px;
+    padding-top: 60px;
+    background-image: url("../img/pattern.png");
+    background-color: rgba(78,160,255,255);
+}
+
+h1 {
+    width: 75%;
+    margin: auto;
+    margin-block-end: 0;
+    font-size: 50px;
+}
+
+#author {
+    width: 75%;
+    margin: auto;
+    font-size: 25px;
+    color: rgba(135,135,135,255);
+}
+
+#author_name {
+    color: rgba(110,198,237,255);
+}
+
+#publication_date {
+    width: 75%;
+    margin: auto;
+    color: rgba(135,135,135,255);
+}
+
+#figure_header {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 75%;
+    margin: auto;
+}
+
+.header_img {
+    height: 320px;
+}
+
+main {
+    width: 75%;
+    margin: auto;
+}
+
+.main_text {
+    font-size: 20px;
+}
+
+.highlited {
+    background-color: rgba(255,255,0,255);
+}
+
+ul {
+    padding-inline-start: 20px;
+}
+
+table {
+   border-collapse: collapse;
+}
+
+
+thead {
+    color: white;
+    background-color: rgba(32,169,229,255);
+}
+
+.tr_teal {
+    background-color: rgba(177,229,242,255);
+}
+
+.td1 {
+    width: 350px;
+}
+
+.td2 {
+    width: 650px;
+}
+
+footer {
+    width: 75%;
+    margin: auto;
+}
+
+h2 {
+    color: rgba(146,146,146,255);
+}
+
+.footer_img {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 208px;
+    width: 312px;
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 25px;
+    color: rgba(239,239,240,255);
+    background-repeat: no-repeat;
+}
+
+#footer_img1 {
+    background-image: url("../img/monitor.jpg");
+}
+
+#footer_img2 {
+    background-image: url("../img/graph.jpg");
+}
